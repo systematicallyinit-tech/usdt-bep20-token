@@ -31,7 +31,7 @@ export default defineConfig({
 
     monadMainnet: {
       type: "http",
-      url: "https://rpc.monad.xyz",
+      url: "https://rpc1.monad.xyz",
       chainId: 143,
       accounts: [configVariable("PRIVATE_KEY")],
     },

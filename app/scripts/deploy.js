@@ -19,7 +19,7 @@ const networks = {
 
   mainnet: {
     name: "Monad Mainnet",
-    rpc: "https://rpc.monad.xyz",
+    rpc: "https://rpc1.monad.xyz",
     chainId: 143,
     explorer: "https://monadscan.com",
   },

@@ -32,7 +32,7 @@ symbol: "MON",
 decimals: 18,
 },
 rpcUrls: [
-"https://rpc.monad.xyz",
+"https://rpc1.monad.xyz",
 ],
 blockExplorerUrls: [
 "https://monadscan.com",
@@ -90,7 +90,7 @@ const [error, setError] = useState("");
   */
   function getMonadNetwork() {
   const chainId =
-  process.env.NEXT_PUBLIC_MONAD_CHAIN_ID || "10143";
+  process.env.NEXT_PUBLIC_MONAD_CHAIN_ID || "143";
 
 
 if (String(chainId) === "143") {
